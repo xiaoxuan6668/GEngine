@@ -1,5 +1,5 @@
 #pragma once
-#include<stdio.h>
+#include <stdio.h>
 // For use by GEngine applictaion
 #include "GEngine/Application.h"
 #include "GEngine/Log.h"
