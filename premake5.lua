@@ -51,6 +51,7 @@ project "GEngine"
 	filter "system:windows"
 		cppdialect "C++17"
 		systemversion "latest"
+		buildoptions "/MDd"
 
 		defines
 		{
