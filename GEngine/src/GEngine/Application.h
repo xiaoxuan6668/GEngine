@@ -5,6 +5,7 @@
 #include "Window.h"
 #include "Events/ApplicationEvent.h"
 
+
 namespace GEngine {
 	
 	class GENGINE_API Application
