@@ -1,7 +1,13 @@
 #include "gepch.h"
 #include "LayerStack.h"
 
+
 namespace GEngine {
+
+	LayerStack::LayerStack()
+	{
+		m_LayerInsert = m_Layers.begin();
+	}
 
 	LayerStack::~LayerStack()
 	{

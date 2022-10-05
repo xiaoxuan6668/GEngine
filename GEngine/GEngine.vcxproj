@@ -154,6 +154,8 @@
     <ClInclude Include="src\GEngine\Events\Event.h" />
     <ClInclude Include="src\GEngine\Events\KeyEvent.h" />
     <ClInclude Include="src\GEngine\Events\MouseEvent.h" />
+    <ClInclude Include="src\GEngine\Layer.h" />
+    <ClInclude Include="src\GEngine\LayerStack.h" />
     <ClInclude Include="src\GEngine\Log.h" />
     <ClInclude Include="src\GEngine\Window.h" />
     <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />
@@ -161,6 +163,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\GEngine\Application.cpp" />
+    <ClCompile Include="src\GEngine\Layer.cpp" />
+    <ClCompile Include="src\GEngine\LayerStack.cpp" />
     <ClCompile Include="src\GEngine\Log.cpp" />
     <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp" />
     <ClCompile Include="src\gepch.cpp">
