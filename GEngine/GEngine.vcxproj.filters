@@ -37,6 +37,12 @@
     <ClInclude Include="src\GEngine\Events\MouseEvent.h">
       <Filter>GEngine\Events</Filter>
     </ClInclude>
+    <ClInclude Include="src\GEngine\Layer.h">
+      <Filter>GEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GEngine\LayerStack.h">
+      <Filter>GEngine</Filter>
+    </ClInclude>
     <ClInclude Include="src\GEngine\Log.h">
       <Filter>GEngine</Filter>
     </ClInclude>
@@ -47,11 +53,15 @@
       <Filter>Platform\Windows</Filter>
     </ClInclude>
     <ClInclude Include="src\gepch.h" />
-    <ClInclude Include="src\GEngine\Layer.h" />
-    <ClInclude Include="src\GEngine\LayerStack.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\GEngine\Application.cpp">
+      <Filter>GEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GEngine\Layer.cpp">
+      <Filter>GEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GEngine\LayerStack.cpp">
       <Filter>GEngine</Filter>
     </ClCompile>
     <ClCompile Include="src\GEngine\Log.cpp">
@@ -61,7 +71,5 @@
       <Filter>Platform\Windows</Filter>
     </ClCompile>
     <ClCompile Include="src\gepch.cpp" />
-    <ClCompile Include="src\GEngine\Layer.cpp" />
-    <ClCompile Include="src\GEngine\LayerStack.cpp" />
   </ItemGroup>
 </Project>
