@@ -18,6 +18,7 @@ class Sandbox : public GEngine::Application {
 public:
 	Sandbox() {
 		PushLayer(new ExampleLayer());
+		PushOverlay(new GEngine::ImGuiLayer());
 	}
 
 	~Sandbox() {
